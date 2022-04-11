@@ -6,8 +6,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: calc(120vh - 6rem);
 
   img {
+    margin-top: 2rem;
+  }
+
+  h3 {
     margin-top: 2rem;
   }
 }
